@@ -7,5 +7,10 @@
   "devDependencies": {
     "@types/react": "^16.9.16",
     "typescript": "^3.7.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -r dist",
+    "clean-build": "yarn clean && yarn build"
   }
 }
