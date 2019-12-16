@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-export const useTimeout = <S>(
+const useTimeout = <S>(
   initial: S,
   fallback: S,
   timeoutMs: number
@@ -14,3 +14,5 @@ export const useTimeout = <S>(
 
   return [state, setState];
 };
+
+export default useTimeout;

@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { useTimeout } from "../../src/useTimeout";
+import useTimeout from "../../src";
 
 const App: React.FC = () => {
   const [count, setCount] = useTimeout(3, 0, 3000);
